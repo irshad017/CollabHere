@@ -9,4 +9,10 @@ app.get('/',async (req,resp)=>{
         message: "Collaborate Here!! Bro"
     })
 })
+
+app.get('/api',async (req,resp)=>{
+    resp.json({
+        message: "Hello from Priyesh"
+    })
+})
 app.listen(3000)
